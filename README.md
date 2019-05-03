@@ -17,5 +17,5 @@ If there is any problems regarding your inputs, the code will prompt you with an
 ## To do
 A list of what has been done, and where to go next.
 - [x] Make the script solve up to third degree equations
-- [] Make it possible to output the results to a csv
-- [] Expand to solve equations of a higher degree
+- [ ] Make it possible to output the results to a csv
+- [ ] Expand to solve equations of a higher degree
