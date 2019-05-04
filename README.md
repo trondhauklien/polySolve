@@ -14,8 +14,10 @@ This script need an input csv file to process. It takes each row as an equation,
 
 If there is any problems regarding your inputs, the code will prompt you with an error message telling you what line the error lies within.
 
+**NEW!** You are now able to output the solutions of your equations (from the input file) to an separate output file. The syntax of the function is `python polySolveList(file, w=True, path="solutions.csv")`, where `file` is the path to your input file, `w` is wether or not you'd like to output the solutions to a separate csv file (default `python False`) and `path` is the path to your output file (default `solutions.csv`). The output list will consist of one array of solutions per row, with the following format: `[x1 x2 x3]`, where the objects are float elements.
+
 ## To do
 A list of what has been done, and where to go next.
 - [x] Make the script solve up to third degree equations
-- [ ] Make it possible to output the results to a csv
+- [x] Make it possible to output the results to a csv
 - [ ] Expand to solve equations of a higher degree
